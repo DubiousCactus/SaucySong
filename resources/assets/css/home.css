@@ -1,0 +1,117 @@
+/*------------------MAIN CONTENT-------------*/
+.main {
+	height: 100%;
+	margin-left: 320px;
+	background: #DBDBDB;
+}
+
+.entry {
+	height: 165px;
+}
+
+.author {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	width: 200px;
+	padding-top: 15px;
+	float: left;
+}
+
+.author > p {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.bubble {
+	background: #EDFFBD;
+	height: 100px;
+	width: 500px;
+	position: relative;
+	float: left;
+	top: 30px;
+	margin-left: 70px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px;
+}
+
+.bubble:before {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: "";
+	right: 100%;
+	top: 6px;
+	border-top: 56px solid rgba(0,0,0,0);
+	border-right: 90px solid #edffbd;
+	border-bottom: 30px solid rgba(0,0,0,0);
+}
+
+.play-button {
+	position: relative;
+	z-index: 10;
+	top: 50%;
+	left: 50px;
+	transform: translateX(-50%) translateY(-50%);
+	box-sizing: content-box;
+	display: block;
+	width: 32px;
+	height: 44px;
+	border-radius: 50%;
+	padding: 18px 20px 18px 28px;
+	float: left;
+}
+
+.play-button:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: #61D954;
+	border-radius: 50%;
+}
+
+.play-button:hover:after {
+	background-color: #3dcd2d;
+}
+
+.play-button span {
+	display: block;
+	position: relative;
+	z-index: 3;
+	width: 0;
+	height: 0;
+	border-left: 32px solid #fff;
+	border-top: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+}
+
+.song {
+	position: relative;
+	float: left;
+	left: 40px;
+	top: 20%;
+}
+
+.artist {
+	color: #278DFF;
+	font-style: oblique;
+	font-size: 1em;
+}
+
+.title {
+	color: black;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	line-height: 0.8;
+}

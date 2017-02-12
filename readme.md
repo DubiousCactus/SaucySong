@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p> -->
 
-## What's SaucySong ?
+## What is SaucySong ?
 
 SaucySong is a community-based web app allowing friends to share their music discoveries from YouTube and SoundCloud. Every new entry is sorted in its respective music genre/style, making the process of finding music you like easier. 
 

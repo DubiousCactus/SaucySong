@@ -1,0 +1,289 @@
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*-----------SIDE BAR---------------------*/
+.sidebar {
+	height: 100%;
+	width: 320px;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	background: #4EB843;
+}
+
+.profile {
+	height: 165px;
+	background: #195E12;
+}
+
+.avatar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 15px;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.avatar > img {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+.profile > p {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 2em;
+	color: white;
+}
+
+.category > h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.styles {
+	overflow-y: hidden;
+}
+
+.style {
+	font-size: 2em;
+	text-transform: uppercase;
+	background: #00FFFF;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	margin: 10px;
+}
+
+.active {
+	background: #00B4FF;
+	color: #C4C4C4;
+}
+
+.add-button {
+	position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+    left: 50%;
+    margin-top: 55px;
+    background: cyan;
+    color: white;
+    font-size: 4em;
+}
+
+.add-button > i {
+	margin-left: -10px;
+	margin-left: -10px;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.add-button:hover {
+	color: #00b4ff;
+    background: rgb(0, 88, 88);
+}
+
+
+/*------------------FOOTER-------------*/
+
+.footer {
+	height: 100px;
+	margin-left: 320px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: darkred;
+}
+
+
+
+.controls
+{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 180px;
+  height: 55px;
+  margin: 0 0 0 -90px;
+  background: #201F22;
+  border-radius: 23px;
+}
+
+.controls:before
+{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 124px;
+  height: 88px;
+  margin: -44px 0 0 -62px;
+  background: #201F22;
+  border-radius: 125%;
+}
+
+.controls > a[href="#play"]
+{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 88px;
+  height: 58px;
+  line-height: 58px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  color: #FFF;
+  margin: -29px 0 0 -44px;
+  background: #F5696C;
+  border-radius: 29px;
+  transition: all .3s;
+}
+
+.controls > a[href="#play"]:hover
+{
+  background: #ED484B;
+  box-shadow: 0 0 5px #F5696C;
+  text-shadow: 0 0 5px #FFF;
+}
+
+.controls > a[href="#back"], .controls > a[href="#forward"]
+{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 35px;
+  height: 30px;
+  margin: -15px 0 0;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  color: #BDBCBD;
+  transition: all .3s;
+}
+
+.controls > a[href="#forward"] { left: auto; right: 5px }
+
+.controls > a[href="#back"]:hover, .controls > a[href="#forward"]:hover
+{
+  color: #FFF;
+  text-shadow: 0 0 5px #BDBCBD;
+}
+
+
+.playlist-control {
+  position: relative;
+  float: left;
+  left: 13%;
+  top: 35px;
+  font-size: 24px;
+  color: #bdbcbd;
+}
+
+.playlist-control a {
+  text-decoration: none;
+  color: #bdbcbd;
+}
+
+.playlist-control a:hover {
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.playlist-control .glyphicon-heart-empty {
+  left: 10px;
+}
+
+.volume-control {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  float: left;
+  top: 50px;
+  left: 15%;
+}
+.volume-control i {
+  position: absolute;
+  margin-top: -6px;
+  color: #bdbcbd;
+}
+.volume-control i.fa-volume-down {
+  margin-left: -8px;
+}
+.volume-control i.fa-volume-up {
+  margin-right: -8px;
+  right: 0;
+}
+
+#volume {
+  position: absolute;
+  left: 24px;
+  margin: 0 auto;
+  height: 5px;
+  width: 100px;
+  background: #bdbcbd;
+  border-radius: 15px;
+}
+#volume .ui-slider-range-min {
+  height: 5px;
+  width: 100px;
+  position: absolute;
+  background: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.song-info {
+  line-height: 0.5em;
+  right: 22%;
+  top: 30px;
+  float: right;
+  position: relative;
+}
+
+.song-info > p {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-family: Raleway;
+}
+.song-info > i.song {
+  position: relative;
+  left: 25%;
+  font-size: 14px;
+  color: grey;
+}
