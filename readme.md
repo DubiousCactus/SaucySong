@@ -16,6 +16,9 @@ SaucySong is a community-based web app allowing friends to share their music dis
 - Subscribing feature, a-la-SoundCloud, putting your friends' discoveries ahead in your feed
 - No single bit of music is stored on our servers, it is a simple relay to SoundCloud/YouTube
 
+![SaucySong landing page mockup](/public/images/mockup.png)
+				*Landing page mockup*
+
 ## How can I help ?
 
 We mostly need designers and front-end coders (gosh do I hate that part), but any idea that could enhance the app is more than welcome to be shared !
