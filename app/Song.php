@@ -8,7 +8,7 @@ class Song extends Model
 {
     protected $fillable = ['title', 'artist', 'description', 'url'];
 
-    public function sharer()
+    public function user()
     {
     	return $this->belongsTo(User::class);
     }

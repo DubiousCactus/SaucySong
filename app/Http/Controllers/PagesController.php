@@ -19,6 +19,6 @@ class PagesController extends Controller
 	 */
     public function index()
     {
-    	return view('index')->withSongs(Song::with('sharer')->get());
+    	return view('index')->withSongs(Song::with('user')->get());
     }
 }

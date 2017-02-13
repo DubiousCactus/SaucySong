@@ -7,7 +7,7 @@
                 <div class="avatar">
                     <img src="/images/avatar.png" alt="avatar">
                 </div>
-                <p>{{ $song->sharer->name }}</p>
+                <p>{{ $song->user->name }}</p>
             </div>
             <div class="bubble">
                 <a class="play-button" href="#"><span></span></a>
