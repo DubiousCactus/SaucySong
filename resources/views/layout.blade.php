@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -24,7 +24,7 @@
         		<div class="avatar">
         			<img src="/images/avatar.png" alt="avatar">
         		</div>
-        		<p>Theo M.</p>
+        		<p>{{ Auth::user()->name }}</p>
         	</div>
         	<div class="category">
         		<h1>core</h1>
