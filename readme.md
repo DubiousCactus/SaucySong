@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p> -->
 
-## What is SaucySong ?
+# What is SaucySong ?
 
 SaucySong is a community-based web app allowing friends to share their music discoveries from YouTube and SoundCloud. Every new entry is sorted in its respective music genre/style, making the process of finding music you like easier. 
 
@@ -24,7 +24,7 @@ We mostly need designers and front-end coders (gosh do I hate that part), but an
 
 In order to contribute to the code, you'll need to set up a few things ...
 
-- [Laravel Framework]https://laravel.com/docs/5.4/installation
+- [Laravel Framework](https://laravel.com/docs/5.4/installation)
 - A MySQL database following the exemple .env.exemple file configuration
 - A proper .env file (follow the .env.exemple file structure)
 
@@ -32,7 +32,7 @@ Once you've installed the framework and its dependencies, in the project's folde
 
 -> php artisan migrate (to create the database tables, assuming you created a database and configured your .env file)
 
-Then, you should be able to tinker around with the web app. You'll probably want to use *php artisan tinker* to add content in a faster and more convenient fashion.
+Then, you should be able to tinker around with the web app. You'll probably want to use **php artisan tinker** to add content in a faster and more convenient fashion.
 
 
 ## What about copyrights and stuff ?
