@@ -20,6 +20,26 @@ SaucySong is a community-based web app allowing friends to share their music dis
 
 We mostly need designers and front-end coders (gosh do I hate that part), but any idea that could enhance the app is more than welcome to be shared !
 
+## Development environment
+
+In order to contribute to the code, you'll need to set up a few things ...
+
+- [Laravel Framework]https://laravel.com/docs/5.4/installation
+- A MySQL database following the exemple .env.exemple file configuration
+- A proper .env file (follow the .env.exemple file structure)
+
+Once you've installed the framework and its dependencies, in the project's folder run:
+
+-> php artisan migrate (to create the database tables, assuming you created a database and configured your .env file)
+
+Then, you should be able to tinker around with the web app. You'll probably want to use *php artisan tinker* to add content in a faster and more convenient fashion.
+
+
 ## What about copyrights and stuff ?
 
 Well I don't know, wait and see.
+
+
+## Contact
+
+Don't hesitate to contact me at <theo.morales.fr@gmail.com> for any question.
