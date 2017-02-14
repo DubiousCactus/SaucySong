@@ -15,6 +15,14 @@
                     <p class="artist">{{ $song->artist }}</p>
                     <p class="title">{{ $song->title }}</p>
                 </div>
+                <div class="button"> Like</div>
+                <span class="likes">17</span>
+            </div>
+            <br>
+            <div class="song-styles">
+                @foreach($song->styles as $style)
+                    <span><em>{{ $style->name }}</em></span>
+                @endforeach
             </div>
         </div>
     @endforeach
